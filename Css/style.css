@@ -78,3 +78,60 @@ header .product .product-label span{
     display: block;
     
 }
+
+section.features{
+    padding: 70px 0px ;
+    background-color: #fff; 
+}
+
+section.features .features-title h2{
+    font-size: 36px;
+    color: #555;
+    line-height: 32px;
+    padding-bottom: 45px;
+    position: relative;
+}
+
+section.features .features-title h2::after{
+    content: "";
+    width: 150px;
+    height: 2px;
+    background-color: #743e9a;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section.features .media-features .d-flex{
+    padding: 70px 0;
+    border-bottom: 3px solid #eee;
+}
+
+section.features .media-features .d-flex:nth-child(even){
+    direction: ltr;
+}
+
+section.features .media-features .d-flex img {
+    margin: 0 80px;
+}
+
+section.features .media-features .d-flex h4{
+    font-size: 36px;
+    font-weight: bold;
+    color: #6a3093;
+    padding: 0 25px;
+    margin-bottom: 50px;
+    border-right: 2px solid #6a3093;
+}
+
+section.features .media-features .d-flex:nth-child(even) h4{
+    border-left: 2px solid #6a3093;
+    border-right: 0;
+}
+
+section.features .media-features .d-flex p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #555;
+}
