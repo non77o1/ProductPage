@@ -135,3 +135,64 @@ section.features .media-features .d-flex p {
     line-height: 32px;
     color: #555;
 }
+
+
+section.prices{
+    padding: 50px 0 60px;
+    background-color: #f7f7f7 ;
+}
+
+section.prices .price-text  h2{
+    font-size: 30px;
+    color: #555;
+}
+
+section.prices .plan-card {
+    background-color: #fff;
+    border: 2px solid #ededed;
+    padding: 15px 0;
+    margin-top: 180px;
+    color: #a9a9a9;
+}
+
+section.prices .plan-card span.title{
+    font-size: 18px;
+    color: #a044ff;
+}
+
+section.prices .plan-card h5{
+    font-size: 48px;
+    margin: 30px auto;
+}
+
+section.prices .plan-card h5 span{
+    font-size: 15px;
+    vertical-align: bottom;
+}
+
+section.prices .plan-card ul{
+    padding: 0;
+}
+section.prices .plan-card ul li{
+    font-size: 15px;
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+section.prices .plan-card a.btn{
+    font-size: 15px;
+    border: 2px solid #7233a2;
+    color: #7233a2;
+    padding: 10px 40px;
+    transition: .5s all ease;
+}
+
+section.prices .col-md-6:nth-child(3) .plan-card{
+    padding-top: 60px;
+    margin-top: 130px;
+}
+section.prices .plan-card a.btn:hover,
+section.prices .col-md-6:nth-child(3) .plan-card a.btn{
+    background-color: #7233a2;
+    color: #fff;
+}
